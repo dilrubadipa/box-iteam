@@ -1,0 +1,17 @@
+.box{
+    width:300px ;
+    height: 350px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color:papayawhip;
+} 
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+
+
+
